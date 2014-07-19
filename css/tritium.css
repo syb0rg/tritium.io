@@ -120,7 +120,7 @@ a:hover, a:focus {
             background-size: cover;
     position: relative;
 }
-.intro:after {
+.intro:before {
     content: "";
     position: absolute;
     right: 0;
