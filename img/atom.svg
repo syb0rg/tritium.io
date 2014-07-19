@@ -28,7 +28,7 @@
      inkscape:cx="-273.1751"
      inkscape:cy="234.84776"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="1280"
      inkscape:window-height="684"
@@ -86,7 +86,7 @@
     <g
        id="g2997"
        transform="matrix(-0.25881905,-0.96592583,0.96592583,-0.25881905,129.87282,611.33082)"
-       style="fill:#3b3b3b;fill-opacity:1">
+       style="fill:#1c1f26;fill-opacity:1">
       <path
          transform="matrix(1.0061861,-0.5809218,0.5809218,1.0061861,-135.78147,130.45415)"
          d="m 279.9099,300.03488 c 0,11.0855 -8.98657,20.07207 -20.07207,20.07207 -11.0855,0 -20.07207,-8.98657 -20.07207,-20.07207 0,-11.0855 8.98657,-20.07207 20.07207,-20.07207 11.0855,0 20.07207,8.98657 20.07207,20.07207 z"
@@ -95,11 +95,11 @@
          sodipodi:cy="300.03488"
          sodipodi:cx="259.83783"
          id="path3128"
-         style="fill:#3b3b3b;fill-opacity:1"
+         style="fill:#1c1f26;fill-opacity:1"
          sodipodi:type="arc" />
       <path
          sodipodi:type="arc"
-         style="fill:#3b3b3b;fill-opacity:1"
+         style="fill:#1c1f26;fill-opacity:1"
          id="path3130"
          sodipodi:cx="259.83783"
          sodipodi:cy="300.03488"
@@ -115,12 +115,12 @@
          sodipodi:cy="300.03488"
          sodipodi:cx="259.83783"
          id="path3132"
-         style="fill:#3b3b3b;fill-opacity:1"
+         style="fill:#1c1f26;fill-opacity:1"
          sodipodi:type="arc" />
     </g>
     <path
        sodipodi:type="arc"
-       style="fill:#3b3b3b;fill-opacity:1"
+       style="fill:#1c1f26;fill-opacity:1"
        id="path3134"
        sodipodi:cx="95.931564"
        sodipodi:cy="150.63696"
