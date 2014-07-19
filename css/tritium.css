@@ -127,7 +127,7 @@ a:hover, a:focus {
     bottom: -200px;
     width: 250px;
     height: 457px;
-    background-image: url(img/atom.svg);
+    background-image: url(../img/atom.svg);
 }
 .intro-body {
     display: table-cell;
