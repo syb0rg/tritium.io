@@ -94,9 +94,9 @@ a:hover, a:focus {
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
-        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
-        transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -webkit-transition: background .4s ease-in-out, padding .4s ease-in-out;
+        -moz-transition: background .4s ease-in-out, padding .4s ease-in-out;
+        transition: background .4s ease-in-out, padding .4s ease-in-out;
     }
     .top-nav-collapse {
         padding: 0;
