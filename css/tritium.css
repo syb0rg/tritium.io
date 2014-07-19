@@ -115,9 +115,19 @@ a:hover, a:focus {
     color: #fff;
     background-color: #171d25;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    position: relative;
+}
+.intro:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -200px;
+    width: 250px;
+    height: 457px;
+    background-image: url(../img/atom.svg);
 }
 .intro-body {
     display: table-cell;
