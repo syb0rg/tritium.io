@@ -90,6 +90,9 @@ a:hover, a:focus {
 }
 @media(min-width:767px) {
     .navbar {
+        position: fixed;
+        margin-left: 0px;
+        margin-right: 0px;
         padding: 20px 0;
         border-bottom: 0;
         letter-spacing: 1px;
@@ -259,7 +262,7 @@ a:hover, a:focus {
 }
 @media(max-width:767px) {
     ul.banner-social-buttons>li {
-        display: block;
+        display: inline-block;
         margin-bottom: 20px;
         padding: 0;
     }
