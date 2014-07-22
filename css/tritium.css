@@ -38,6 +38,13 @@ a:hover, a:focus {
     text-decoration: none;
     color: #78C40F;
 }
+svg {
+    position: absolute;
+    right: 0;
+    bottom: -100px;
+    width: 250px;
+    height: 436.34589px;
+}
 .light {
     font-weight: 400;
 }
@@ -109,17 +116,6 @@ a:hover, a:focus {
             background-size: cover;
     position: relative;
 }
-/*
-.intro:before {
-    content: "";
-    position: absolute;
-    right: 0;
-    bottom: -150px;
-    width: 250px;
-    height: 436.34589px;
-    background-image: url(../img/atom.svg);
-}
-*/
 .intro-body {
     display: table-cell;
     vertical-align: middle;
@@ -252,7 +248,6 @@ a:hover, a:focus {
     ul.banner-social-buttons>li {
         display: inline-block;
         margin-bottom: 20px;
-        padding: 0;
     }
 }
 ::-moz-selection {
