@@ -38,20 +38,6 @@ a:hover, a:focus {
     text-decoration: none;
     color: #78C40F;
 }
-#container {
-    position: relative;
-}
-#background {
-    margin: -175px;
-    margin-top: 50px;
-    text-align:right;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
-}
 .light {
     font-weight: 400;
 }
@@ -127,9 +113,9 @@ a:hover, a:focus {
     content: "";
     position: absolute;
     right: 0;
-    bottom: -200px;
+    bottom: -150px;
     width: 250px;
-    height: 457px;
+    height: 436.34589px;
     background-image: url(../img/atom.svg);
 }
 .intro-body {
