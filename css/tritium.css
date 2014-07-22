@@ -109,6 +109,7 @@ a:hover, a:focus {
             background-size: cover;
     position: relative;
 }
+/*
 .intro:before {
     content: "";
     position: absolute;
@@ -118,6 +119,7 @@ a:hover, a:focus {
     height: 436.34589px;
     background-image: url(../img/atom.svg);
 }
+*/
 .intro-body {
     display: table-cell;
     vertical-align: middle;
