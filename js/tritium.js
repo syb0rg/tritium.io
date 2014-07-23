@@ -5,8 +5,8 @@ $(window).scroll(function () {
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
-    var s = ($(window).scrollTop() / ($(document).height() - $(window).height()));
-    var r1 = 40+106*s, r2=160-140*s;
+    var s = ($(window).scrollTop() / (($("#intro").height() + $("#about").height()) - $(window).height()));
+    var r1 = 40+106*s, r2=160-100*s;
     $("#a1").attr("transform","rotate("+r1+")");
     $("#a2").attr("transform","rotate("+r2+")");
 });
