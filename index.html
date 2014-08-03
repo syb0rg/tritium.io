@@ -71,8 +71,7 @@
                             <img src="img/tritium-logo.svg" height="100" width="100" />
                              <h1 class="brand-heading">Tritium</h1>
 
-                            <p class="intro-text">A free, premium quality speech synthesis engine written completely in C.</p>	<a href="http://comingsoon" class="btn btn-default btn-lg">Visit Download Page</a>
-
+                            <p class="intro-text">A free, premium quality speech synthesis engine written completely in C.</p>	<a href="#download-box" class="btn btn-default btn-lg download-window">Visit Download Page</a>
                         </div>
                     </div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="434.78391px" height="436.34589px" version="1.1">
@@ -102,22 +101,45 @@
             </div>
         </section>
         <section id="contact" class="container contact-section text-center">
-            <div class="row">
+            <div class="contact">
                 <div class="col-lg-8 col-lg-offset-2">
                      <h2>Contact</h2>
 
                     <p>Feel free to contact me to provide some feedback on the software, give suggestions for new features and improvements, or to just say hello!</p>
                     <ul class="list-inline banner-social-buttons">
-                        <li><a href="https://codereview.stackexchange.com/users/27623/syb0rg" <i class="fa fa-stack-overflow fa-4x"></i></a>
+                        <li class="se">
+                            <a href="https://codereview.stackexchange.com/users/27623/syb0rg" <i class="fa fa-stack-exchange fa-4x"></i></a>
                         </li>
-                        <li><a href="https://twitter.com/syb0rg" <i class="fa fa-twitter fa-4x"></i></a>
+                        <li class="twitter">
+                            <a href="https://twitter.com/syb0rg" <i class="fa fa-twitter fa-4x"></i></a>
                         </li>
-                        <li><a href="https://github.com/syb0rg" <i class="fa fa-github fa-4x"></i></a>
+                        <li class="github">
+                            <span class="logo"></span>
+                            <a href="https://github.com/syb0rg" <i class="fa fa-github fa-4x"></i></a>
                         </li>
                     </ul>
                 </div>
             </div>
         </section>
+<div id="download-box" class="download-popup">
+<a href="#" class="close"><i class="fa fa-times btn-close"></i></a>
+  <form method="post" class="signin" action="#">
+        <fieldset class="textbox">
+        <label class="username">
+        <span>Username or email</span>
+        <input id="username" name="username" value="" type="text" autocomplete="on" placeholder="username">
+        </label>
+        <label class="password">
+        <span>Password</span>
+        <input id="password" name="password" value="" type="password" placeholder="password">
+        </label>
+        <button class="submit button" type="button">Sign in</button>
+        <p>
+        <a class="forgot" href="#">Forgot your password?</a>
+        </p>        
+        </fieldset>
+  </form>
+</div>
         <!-- Core JavaScript Files -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
@@ -125,5 +147,4 @@
         <!-- Custom Theme JavaScript -->
         <script src="js/tritium.js"></script>
     </body>
-
 </html>
