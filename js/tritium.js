@@ -27,7 +27,7 @@ $(document).ready(function() {
 $('a.download-window').click(function() {
     var a = document.createElement("a");
     a.target='_blank';
-    a.href = "http://www.google.com/";
+    a.href = "https://github.com/syb0rg/Tritium";
     var evt = document.createEvent("MouseEvents");
     //the tenth parameter of initMouseEvent sets ctrl key
     evt.initMouseEvent("click", true, true, window, 0, 0, 0, 0, 0,
